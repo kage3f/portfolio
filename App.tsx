@@ -180,7 +180,7 @@ const App: React.FC = () => {
             download="Curriculo_Tiago_Rodrigues.pdf"
             className="w-full gradient-bg text-white py-4 rounded-2xl font-black text-xs uppercase tracking-widest shadow-xl shadow-indigo-500/10 hover:scale-[1.02] transition-all text-center"
           >
-            Download CV
+            Download CVS
           </a>
           <div className="flex gap-2">
             <a href="https://github.com/kage3f" target="_blank" className="flex-1 h-12 bg-slate-800 border border-slate-700 rounded-xl flex items-center justify-center text-slate-400 hover:text-white transition-all hover:border-slate-500">
