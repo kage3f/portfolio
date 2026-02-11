@@ -150,7 +150,7 @@ const App: React.FC = () => {
       <aside className="w-full md:w-80 lg:w-96 bg-slate-900 rounded-[32px] border border-slate-800 shadow-2xl flex flex-col p-8 shrink-0 overflow-y-auto custom-scrollbar">
         <div className="w-44 h-44 rounded-[24px] overflow-hidden mb-8 shadow-2xl ring-4 ring-slate-800 self-center">
           <img 
-            src="public/profile.jpeg" 
+            src="/profile.jpeg" 
             alt={RESUME_DATA.name} 
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
           />
@@ -176,7 +176,7 @@ const App: React.FC = () => {
 
         <div className="mt-8 flex flex-col gap-3">
             <a 
-            href="/public/cv.pdf" 
+            href="/cv.pdf" 
             download="Curriculo_Tiago_Rodrigues.pdf"
             className="w-full gradient-bg text-white py-4 rounded-2xl font-black text-xs uppercase tracking-widest shadow-xl shadow-indigo-500/10 hover:scale-[1.02] transition-all text-center"
           >
